@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "news": "新闻",
+    "contact": "联系我们",
+    "language": "语言"
+  },
+  "hero": {
+    "title": "蒙古铁路",
+    "subtitle": "蒙古国发展的支柱",
+    "description": "我们在国家经济发展中发挥着重要作用，提供可靠、安全的运输服务。",
+    "cta": "了解更多",
+    "schedule": "时刻表"
+  },
+  "stats": {
+    "title": "关键数据",
+    "railLength": "铁路长度",
+    "railLengthUnit": "公里",
+    "passengers": "年度旅客",
+    "passengersUnit": "百万",
+    "cargo": "货物运输",
+    "cargoUnit": "百万吨",
+    "employees": "员工人数",
+    "employeesUnit": "人"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "可靠、安全的运输解决方案",
+    "passenger": {
+      "title": "旅客运输",
+      "description": "可靠的国内和国际旅客运输服务。"
+    },
+    "cargo": {
+      "title": "货物运输",
+      "description": "安全高效的矿产、出口和进口货物运输。"
+    },
+    "infrastructure": {
+      "title": "基础设施",
+      "description": "铁路基础设施维护、翻新和扩建。"
+    },
+    "international": {
+      "title": "国际合作",
+      "description": "跨境运输走廊和国际伙伴关系。"
+    }
+  },
+  "news": {
+    "title": "新闻动态",
+    "subtitle": "最新新闻和信息",
+    "readMore": "阅读更多",
+    "allNews": "所有新闻",
+    "date": "日期",
+    "category": "类别",
+    "categories": {
+      "general": "一般",
+      "project": "项目",
+      "event": "活动",
+      "announcement": "公告"
+    }
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "蒙古铁路的历史、使命和价值观",
+    "history": {
+      "title": "我们的历史",
+      "description": "蒙古铁路股份公司自1949年以来一直是蒙古国运输行业的领导者。我们作为国家发展的支柱，几十年来提供可靠的运输服务。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "通过提供安全、可靠、便捷的铁路运输服务，支持蒙古国的经济发展。"
+    },
+    "values": {
+      "title": "我们的价值观",
+      "safety": "安全",
+      "reliability": "可靠性",
+      "innovation": "创新",
+      "sustainability": "可持续发展"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "与我们取得联系",
+    "address": "地址",
+    "addressValue": "蒙古国乌兰巴托市苏赫巴托区小环路8号",
+    "phone": "电话",
+    "email": "邮箱",
+    "workHours": "工作时间",
+    "workHoursValue": "周一至周五: 09:00 - 18:00",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "subject": "主题",
+      "message": "留言",
+      "send": "发送"
+    }
+  },
+  "footer": {
+    "description": "蒙古铁路股份公司是蒙古国领先的运输公司。",
+    "quickLinks": "快速链接",
+    "contactInfo": "联系信息",
+    "socialMedia": "社交媒体",
+    "copyright": "© 2024 蒙古铁路股份公司。保留所有权利。"
+  }
+}

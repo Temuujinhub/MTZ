@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Mongolian Railway",
+    "subtitle": "The Backbone of Mongolia's Development",
+    "description": "We play a vital role in the economic development of our nation, delivering reliable and safe transportation services.",
+    "cta": "Learn More",
+    "schedule": "Schedule"
+  },
+  "stats": {
+    "title": "Key Figures",
+    "railLength": "Railway Length",
+    "railLengthUnit": "km",
+    "passengers": "Annual Passengers",
+    "passengersUnit": "million",
+    "cargo": "Cargo Transport",
+    "cargoUnit": "million tons",
+    "employees": "Employees",
+    "employeesUnit": "people"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Reliable and safe transportation solutions",
+    "passenger": {
+      "title": "Passenger Transport",
+      "description": "Reliable domestic and international passenger transportation services."
+    },
+    "cargo": {
+      "title": "Cargo Transport",
+      "description": "Safe and efficient transport of mining, export, and import cargo."
+    },
+    "infrastructure": {
+      "title": "Infrastructure",
+      "description": "Railway infrastructure maintenance, renovation, and expansion."
+    },
+    "international": {
+      "title": "International Cooperation",
+      "description": "Cross-border transport corridors and international partnerships."
+    }
+  },
+  "news": {
+    "title": "News & Updates",
+    "subtitle": "Latest news and information",
+    "readMore": "Read More",
+    "allNews": "All News",
+    "date": "Date",
+    "category": "Category",
+    "categories": {
+      "general": "General",
+      "project": "Project",
+      "event": "Event",
+      "announcement": "Announcement"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "History, mission, and values of Mongolian Railway",
+    "history": {
+      "title": "Our History",
+      "description": "Mongolian Railway JSC has been a leader in Mongolia's transportation sector since 1949. We have served as the backbone of national development, providing reliable transportation services for decades."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To support Mongolia's economic development by providing safe, reliable, and accessible railway transportation services."
+    },
+    "values": {
+      "title": "Our Values",
+      "safety": "Safety",
+      "reliability": "Reliability",
+      "innovation": "Innovation",
+      "sustainability": "Sustainability"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us",
+    "address": "Address",
+    "addressValue": "Baga Toiruu 8, Sukhbaatar District, Ulaanbaatar, Mongolia",
+    "phone": "Phone",
+    "email": "Email",
+    "workHours": "Working Hours",
+    "workHoursValue": "Monday - Friday: 09:00 - 18:00",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "footer": {
+    "description": "Mongolian Railway JSC is a leading transportation company in Mongolia.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "socialMedia": "Social Media",
+    "copyright": "© 2024 Mongolian Railway JSC. All rights reserved."
+  }
+}
