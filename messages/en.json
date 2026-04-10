@@ -2,15 +2,19 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
-    "services": "Services",
+    "services": "Operations",
     "news": "News",
     "contact": "Contact",
+    "transparency": "Transparency",
+    "legal": "Legal",
+    "careers": "Careers",
+    "anticorruption": "Anti-corruption",
     "language": "Language"
   },
   "hero": {
     "title": "Mongolian Railway",
-    "subtitle": "The Backbone of Mongolia's Development",
-    "description": "We play a vital role in the economic development of our nation, delivering reliable and safe transportation services.",
+    "subtitle": "Defining National Railway Development in the International Network",
+    "description": "Mongolian Railway JSC is a state-owned joint stock company responsible for building, owning, and operating railway infrastructure and transportation services in Mongolia.",
     "cta": "Learn More",
     "schedule": "Schedule"
   },
@@ -18,31 +22,31 @@
     "title": "Key Figures",
     "railLength": "Railway Length",
     "railLengthUnit": "km",
-    "passengers": "Annual Passengers",
-    "passengersUnit": "million",
-    "cargo": "Cargo Transport",
-    "cargoUnit": "million tons",
-    "employees": "Employees",
-    "employeesUnit": "people"
+    "passengers": "Q1 2026 Cargo",
+    "passengersUnit": "million tons",
+    "cargo": "Subsidiaries",
+    "cargoUnit": "companies",
+    "employees": "Established",
+    "employeesUnit": "year"
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Reliable and safe transportation solutions",
+    "title": "Our Operations",
+    "subtitle": "Reliable railway infrastructure and transportation solutions",
     "passenger": {
-      "title": "Passenger Transport",
-      "description": "Reliable domestic and international passenger transportation services."
+      "title": "Transportation Services",
+      "description": "Reliable and safe passenger and cargo transportation services."
     },
     "cargo": {
-      "title": "Cargo Transport",
-      "description": "Safe and efficient transport of mining, export, and import cargo."
+      "title": "Infrastructure Development",
+      "description": "Railway infrastructure construction and new route development."
     },
     "infrastructure": {
-      "title": "Infrastructure",
-      "description": "Railway infrastructure maintenance, renovation, and expansion."
+      "title": "Rolling Stock",
+      "description": "Owning, operating, manufacturing, assembling, and repairing rolling stock."
     },
     "international": {
       "title": "International Cooperation",
-      "description": "Cross-border transport corridors and international partnerships."
+      "description": "Cross-border transport corridors, international partnerships, and export transportation."
     }
   },
   "news": {
@@ -56,37 +60,49 @@
       "general": "General",
       "project": "Project",
       "event": "Event",
-      "announcement": "Announcement"
+      "announcement": "Announcement",
+      "meeting": "Meeting"
     }
   },
   "about": {
     "title": "About Us",
-    "subtitle": "History, mission, and values of Mongolian Railway",
+    "subtitle": "History, mission, and values of Mongolian Railway JSC",
     "history": {
       "title": "Our History",
-      "description": "Mongolian Railway JSC has been a leader in Mongolia's transportation sector since 1949. We have served as the backbone of national development, providing reliable transportation services for decades."
+      "description": "Mongolian Railway JSC was established on March 5, 2008, by Resolution No. 82 of the Government of Mongolia and the decision of the State Property Committee on March 20. The company is responsible for building, owning, and operating railway infrastructure and conducting railway transportation activities."
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To support Mongolia's economic development by providing safe, reliable, and accessible railway transportation services."
+      "description": "To become the defining force of national railway development integrated into the international network."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the pillar of sustainable development."
     },
     "values": {
-      "title": "Our Values",
-      "safety": "Safety",
-      "reliability": "Reliability",
-      "innovation": "Innovation",
-      "sustainability": "Sustainability"
+      "title": "Priority Areas",
+      "safety": "Safe Transport",
+      "reliability": "Innovation",
+      "innovation": "Governance Improvement",
+      "sustainability": "Economic Growth"
+    },
+    "subsidiaries": {
+      "title": "Subsidiaries"
     }
   },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get in touch with us",
     "address": "Address",
-    "addressValue": "Baga Toiruu 8, Sukhbaatar District, Ulaanbaatar, Mongolia",
+    "addressValue": "Union Building, Block A, 7th Floor, Sukhbaatar District, 1st Khoroo, 13th Micro-district, Narny Road-62, Ulaanbaatar /14230/",
     "phone": "Phone",
+    "phoneValue": "+(976) 70006464",
+    "fax": "Fax",
+    "faxValue": "+(976) 70106644",
     "email": "Email",
+    "emailValue": "info@mtz.gov.mn",
     "workHours": "Working Hours",
-    "workHoursValue": "Monday - Friday: 09:00 - 18:00",
+    "workHoursValue": "Monday - Friday: 08:30 - 17:30",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -96,10 +112,11 @@
     }
   },
   "footer": {
-    "description": "Mongolian Railway JSC is a leading transportation company in Mongolia.",
+    "description": "Mongolian Railway JSC is a state-owned joint stock company responsible for building, owning, and operating railway infrastructure and transportation services in Mongolia.",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Information",
     "socialMedia": "Social Media",
-    "copyright": "© 2024 Mongolian Railway JSC. All rights reserved."
+    "copyright": "© 2024 Mongolian Railway JSC. All rights reserved.",
+    "subsidiaries": "Subsidiaries"
   }
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send, Printer } from "lucide-react";
 
 export default function ContactPageClient() {
   const t = useTranslations("contact");
@@ -36,13 +36,19 @@ export default function ContactPageClient() {
                 {
                   icon: Phone,
                   label: t("phone"),
-                  value: "+976 7000-1949",
+                  value: t("phoneValue"),
                   color: "from-emerald-500 to-emerald-600",
+                },
+                {
+                  icon: Printer,
+                  label: t("fax"),
+                  value: t("faxValue"),
+                  color: "from-orange-500 to-orange-600",
                 },
                 {
                   icon: Mail,
                   label: t("email"),
-                  value: "info@mtz.mn",
+                  value: t("emailValue"),
                   color: "from-amber-500 to-amber-600",
                 },
                 {
@@ -131,14 +137,20 @@ export default function ContactPageClient() {
             </div>
           </div>
 
-          {/* Map Placeholder */}
-          <div className="mt-16 h-80 bg-surface rounded-2xl border border-gray-100 flex items-center justify-center overflow-hidden">
+          {/* Map Placeholder with real address */}
+          <div className="mt-16 h-80 bg-surface rounded-2xl border border-gray-100 flex items-center justify-center overflow-hidden relative">
             <div className="text-center">
               <MapPin className="w-12 h-12 text-primary/30 mx-auto mb-3" />
-              <p className="text-text-light text-sm">
-                Улаанбаатар, Сүхбаатар дүүрэг, Бага тойруу 8
+              <p className="text-text-primary font-medium text-sm mb-1">
+                Юнион Бүлдинг, А блок, 7 давхар
               </p>
-              <p className="text-text-light text-xs mt-1">47.9184° N, 106.9177° E</p>
+              <p className="text-text-light text-sm">
+                Сүхбаатар дүүрэг, 1-р хороо, 13 хороолол, Нарны зам-62
+              </p>
+              <p className="text-text-light text-sm">
+                Улаанбаатар /14230/
+              </p>
+              <p className="text-text-light text-xs mt-2">47.9184° N, 106.9177° E</p>
             </div>
           </div>
         </div>

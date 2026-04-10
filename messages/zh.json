@@ -2,15 +2,19 @@
   "nav": {
     "home": "首页",
     "about": "关于我们",
-    "services": "服务",
+    "services": "业务",
     "news": "新闻",
     "contact": "联系我们",
+    "transparency": "透明度",
+    "legal": "法律",
+    "careers": "人力资源",
+    "anticorruption": "反腐败",
     "language": "语言"
   },
   "hero": {
     "title": "蒙古铁路",
-    "subtitle": "蒙古国发展的支柱",
-    "description": "我们在国家经济发展中发挥着重要作用，提供可靠、安全的运输服务。",
+    "subtitle": "在国际网络中定义国家铁路发展",
+    "description": "蒙古铁路股份公司是一家负责建设、拥有和运营铁路基础设施及运输服务的国有股份制公司。",
     "cta": "了解更多",
     "schedule": "时刻表"
   },
@@ -18,31 +22,31 @@
     "title": "关键数据",
     "railLength": "铁路长度",
     "railLengthUnit": "公里",
-    "passengers": "年度旅客",
-    "passengersUnit": "百万",
-    "cargo": "货物运输",
-    "cargoUnit": "百万吨",
-    "employees": "员工人数",
-    "employeesUnit": "人"
+    "passengers": "2026年第一季度货运",
+    "passengersUnit": "百万吨",
+    "cargo": "子公司",
+    "cargoUnit": "家公司",
+    "employees": "成立于",
+    "employeesUnit": "年"
   },
   "services": {
-    "title": "我们的服务",
-    "subtitle": "可靠、安全的运输解决方案",
+    "title": "我们的业务",
+    "subtitle": "可靠的铁路基础设施和运输解决方案",
     "passenger": {
-      "title": "旅客运输",
-      "description": "可靠的国内和国际旅客运输服务。"
+      "title": "运输服务",
+      "description": "可靠、安全的旅客和货物运输服务。"
     },
     "cargo": {
-      "title": "货物运输",
-      "description": "安全高效的矿产、出口和进口货物运输。"
+      "title": "基础设施建设",
+      "description": "铁路基础设施建设和新线路开发。"
     },
     "infrastructure": {
-      "title": "基础设施",
-      "description": "铁路基础设施维护、翻新和扩建。"
+      "title": "机车车辆",
+      "description": "机车车辆的拥有、运营、制造、组装和维修。"
     },
     "international": {
       "title": "国际合作",
-      "description": "跨境运输走廊和国际伙伴关系。"
+      "description": "跨境运输走廊、国际伙伴关系和出口运输。"
     }
   },
   "news": {
@@ -56,37 +60,49 @@
       "general": "一般",
       "project": "项目",
       "event": "活动",
-      "announcement": "公告"
+      "announcement": "公告",
+      "meeting": "会议"
     }
   },
   "about": {
     "title": "关于我们",
-    "subtitle": "蒙古铁路的历史、使命和价值观",
+    "subtitle": "蒙古铁路股份公司的历史、使命和价值观",
     "history": {
       "title": "我们的历史",
-      "description": "蒙古铁路股份公司自1949年以来一直是蒙古国运输行业的领导者。我们作为国家发展的支柱，几十年来提供可靠的运输服务。"
+      "description": "蒙古铁路股份公司根据2008年3月5日蒙古政府第82号决议和3月20日国家财产委员会的决定成立。公司负责建设、拥有和运营铁路基础设施及开展铁路运输活动。"
     },
     "mission": {
       "title": "我们的使命",
-      "description": "通过提供安全、可靠、便捷的铁路运输服务，支持蒙古国的经济发展。"
+      "description": "成为融入国际网络的国家铁路发展的定义力量。"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "description": "成为可持续发展的支柱。"
     },
     "values": {
-      "title": "我们的价值观",
-      "safety": "安全",
-      "reliability": "可靠性",
-      "innovation": "创新",
-      "sustainability": "可持续发展"
+      "title": "优先领域",
+      "safety": "安全运输",
+      "reliability": "创新",
+      "innovation": "治理改进",
+      "sustainability": "经济增长"
+    },
+    "subsidiaries": {
+      "title": "子公司"
     }
   },
   "contact": {
     "title": "联系我们",
     "subtitle": "与我们取得联系",
     "address": "地址",
-    "addressValue": "蒙古国乌兰巴托市苏赫巴托区小环路8号",
+    "addressValue": "联合大厦A座7楼，苏赫巴托区第1小区，第13微区，纳尔尼路62号，乌兰巴托 /14230/",
     "phone": "电话",
+    "phoneValue": "+(976) 70006464",
+    "fax": "传真",
+    "faxValue": "+(976) 70106644",
     "email": "邮箱",
+    "emailValue": "info@mtz.gov.mn",
     "workHours": "工作时间",
-    "workHoursValue": "周一至周五: 09:00 - 18:00",
+    "workHoursValue": "周一至周五: 08:30 - 17:30",
     "form": {
       "name": "姓名",
       "email": "邮箱",
@@ -96,10 +112,11 @@
     }
   },
   "footer": {
-    "description": "蒙古铁路股份公司是蒙古国领先的运输公司。",
+    "description": "蒙古铁路股份公司是一家负责建设、拥有和运营铁路基础设施及运输服务的国有股份制公司。",
     "quickLinks": "快速链接",
     "contactInfo": "联系信息",
     "socialMedia": "社交媒体",
-    "copyright": "© 2024 蒙古铁路股份公司。保留所有权利。"
+    "copyright": "© 2024 蒙古铁路股份公司。保留所有权利。",
+    "subsidiaries": "子公司"
   }
 }

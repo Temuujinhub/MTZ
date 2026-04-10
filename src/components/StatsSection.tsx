@@ -1,13 +1,13 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { TrainTrack, Users, Package, Briefcase } from "lucide-react";
+import { TrainTrack, Package, Building2, Calendar } from "lucide-react";
 
 const statsData = [
   { key: "railLength", value: "1,815", icon: TrainTrack },
-  { key: "passengers", value: "3.2", icon: Users },
-  { key: "cargo", value: "30+", icon: Package },
-  { key: "employees", value: "15,000+", icon: Briefcase },
+  { key: "passengers", value: "3", icon: Package },
+  { key: "cargo", value: "5", icon: Building2 },
+  { key: "employees", value: "2008", icon: Calendar },
 ];
 
 export default function StatsSection() {
@@ -15,7 +15,6 @@ export default function StatsSection() {
 
   return (
     <section className="py-20 bg-white relative overflow-hidden">
-      {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-primary" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

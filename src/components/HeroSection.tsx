@@ -1,11 +1,12 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { ArrowRight, Clock, ChevronRight } from "lucide-react";
 
 export default function HeroSection() {
   const t = useTranslations("hero");
+  const locale = useLocale();
 
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
@@ -14,20 +15,15 @@ export default function HeroSection() {
 
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Railway track lines */}
         <div className="absolute top-0 left-0 w-full h-full">
           <div className="absolute top-1/4 left-0 w-full h-[1px] bg-white/5 -rotate-3" />
           <div className="absolute top-1/3 left-0 w-full h-[1px] bg-white/5 -rotate-2" />
           <div className="absolute top-1/2 left-0 w-full h-[1px] bg-white/5 -rotate-1" />
           <div className="absolute top-2/3 left-0 w-full h-[1px] bg-white/5 rotate-1" />
         </div>
-
-        {/* Geometric shapes */}
         <div className="absolute -top-20 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-3xl" />
         <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-primary-light/20 rounded-full blur-3xl" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/[0.02] rounded-full" />
-
-        {/* Grid pattern */}
         <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
@@ -44,7 +40,13 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white/90 text-sm mb-8 backdrop-blur-sm">
             <div className="w-2 h-2 bg-secondary rounded-full animate-pulse" />
-            <span>ТӨХК • Established 1949</span>
+            <span>
+              {locale === "mn"
+                ? "Төрийн өмчит хувьцаат компани • 2008 онд байгуулагдсан"
+                : locale === "zh"
+                  ? "国有股份公司 • 成立于2008年"
+                  : "State-Owned JSC • Established 2008"}
+            </span>
           </div>
 
           {/* Title */}
@@ -83,9 +85,18 @@ export default function HeroSection() {
           {/* Quick stats bar */}
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg">
             {[
-              { value: "1,815", label: "км" },
-              { value: "3.2", label: "сая зорчигч" },
-              { value: "30+", label: "сая тонн" },
+              {
+                value: "1,815",
+                label: locale === "mn" ? "км төмөр зам" : locale === "zh" ? "公里铁路" : "km railway",
+              },
+              {
+                value: "3M",
+                label: locale === "mn" ? "тонн (Q1 2026)" : locale === "zh" ? "吨 (2026年Q1)" : "tons (Q1 2026)",
+              },
+              {
+                value: "5",
+                label: locale === "mn" ? "охин компани" : locale === "zh" ? "子公司" : "subsidiaries",
+              },
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <p className="text-2xl sm:text-3xl font-bold text-white">

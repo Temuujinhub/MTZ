@@ -7,30 +7,27 @@ import { ArrowRight, Calendar } from "lucide-react";
 const newsItems = [
   {
     id: 1,
-    image: "/images/news-1.jpg",
-    category: "project",
-    date: "2024-12-15",
-    titleMn: "Тавантолгой-Зүүнбаян чиглэлийн төмөр замын бүтээн байгуулалт",
-    titleEn: "Tavan Tolgoi - Zuunbayan Railway Construction Update",
-    titleZh: "塔温陶勒盖-宗巴彦铁路建设进展",
+    category: "meeting",
+    date: "2026-03-31",
+    titleMn: "Гүйцэтгэх захирлын ээлжит шуурхай хуралдаан боллоо",
+    titleEn: "Executive Director held regular briefing meeting",
+    titleZh: "执行董事召开例行工作会议",
   },
   {
     id: 2,
-    image: "/images/news-2.jpg",
-    category: "event",
-    date: "2024-12-10",
-    titleMn: "Олон улсын төмөр замын форумд оролцлоо",
-    titleEn: "Participation in International Railway Forum",
-    titleZh: "参加国际铁路论坛",
+    category: "meeting",
+    date: "2026-03-31",
+    titleMn: "\"Чайна Энержи Групп\"-ийн төлөөлөгчидтэй уулзалт хийлээ",
+    titleEn: "Meeting with China Energy Group representatives",
+    titleZh: "与中国能源集团代表会面",
   },
   {
     id: 3,
-    image: "/images/news-3.jpg",
     category: "announcement",
-    date: "2024-12-05",
-    titleMn: "Шинэ зорчигчийн вагоныг ашиглалтад оруулав",
-    titleEn: "New Passenger Wagons Put Into Service",
-    titleZh: "新客车投入运营",
+    date: "2026-03-23",
+    titleMn: "2026 оны эхний улиралд 3 сая тонн ачаа тээвэрлэлээ",
+    titleEn: "3 million tons of cargo transported in Q1 2026",
+    titleZh: "2026年第一季度运输300万吨货物",
   },
 ];
 
@@ -69,14 +66,15 @@ export default function NewsSection() {
                 <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors" />
                 <div className="absolute bottom-4 left-4">
                   <span className="px-3 py-1 rounded-full text-xs font-medium bg-white/90 text-primary shadow-sm">
-                    {t(`categories.${item.category}` as "categories.general" | "categories.project" | "categories.event" | "categories.announcement")}
+                    {t(`categories.${item.category}` as "categories.general" | "categories.project" | "categories.event" | "categories.announcement" | "categories.meeting")}
                   </span>
                 </div>
-                {/* Train icon as placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-20">
+                <div className="absolute inset-0 flex items-center justify-center opacity-10">
                   <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" className="text-primary">
-                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
-                    <line x1="4" y1="22" x2="4" y2="15" />
+                    <rect x="4" y="3" width="16" height="18" rx="2" />
+                    <line x1="8" y1="7" x2="16" y2="7" />
+                    <line x1="8" y1="11" x2="16" y2="11" />
+                    <line x1="8" y1="15" x2="12" y2="15" />
                   </svg>
                 </div>
               </div>
