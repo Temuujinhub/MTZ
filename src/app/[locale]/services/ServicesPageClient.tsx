@@ -6,7 +6,6 @@ import {
   Package,
   Building2,
   Globe,
-  ArrowRight,
   CheckCircle2,
   TrainTrack,
   Shield,
