@@ -1,31 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #1e3a5f;
+  --color-primary: #1a3a5f;
   --color-primary-light: #2a5298;
-  --color-primary-dark: #0f1f3a;
-  --color-secondary: #c8a951;
-  --color-secondary-light: #dfc06b;
+  --color-primary-dark: #0c1829;
   --color-accent: #e74c3c;
-  --color-surface: #f8f9fa;
-  --color-surface-dark: #e9ecef;
-  --color-text-primary: #1a1a2e;
-  --color-text-secondary: #4a4a6a;
-  --color-text-light: #6c757d;
+  --color-accent-hover: #c0392b;
+  --color-green: #27ae60;
+  --color-green-hover: #219a52;
+  --color-gold: #d4a843;
+  --color-gold-light: #e8c468;
+  --color-surface: #f5f5f5;
+  --color-surface-dark: #e8e8e8;
+  --color-dark: #1a2744;
+  --color-darker: #0f1b2d;
+  --color-text-primary: #222222;
+  --color-text-secondary: #555555;
+  --color-text-light: #888888;
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-heading: "Inter", system-ui, -apple-system, sans-serif;
+  --font-heading: "Montserrat", system-ui, -apple-system, sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font-sans);
@@ -35,91 +33,97 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-primary-dark); }
+
+.section-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-primary);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-primary-dark);
-}
-
-/* Glass morphism utility */
-.glass {
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-/* Gradient text utility */
-.gradient-text {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Animation utilities */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.animate-fade-in-up {
-  animation: fadeInUp 0.6s ease-out forwards;
-}
-
-.animate-slide-in-left {
-  animation: slideInLeft 0.6s ease-out forwards;
-}
-
-/* Hero pattern overlay */
-.hero-pattern {
-  background-image:
-    linear-gradient(135deg, rgba(30, 58, 95, 0.95) 0%, rgba(42, 82, 152, 0.85) 50%, rgba(30, 58, 95, 0.9) 100%);
-}
-
-/* Card hover effect */
-.card-hover {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.card-hover:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(30, 58, 95, 0.15);
-}
-
-/* Section divider */
 .section-divider {
-  width: 80px;
-  height: 4px;
-  background: linear-gradient(90deg, var(--color-secondary), var(--color-secondary-light));
-  border-radius: 2px;
+  width: 60px;
+  height: 3px;
+  background: var(--color-accent);
+  margin-top: 1rem;
 }
+
+.card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+.card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+
+.img-overlay-card { position: relative; overflow: hidden; }
+.img-overlay-card img { transition: transform 0.5s ease; }
+.img-overlay-card:hover img { transform: scale(1.08); }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in-up { animation: fadeInUp 0.7s ease-out forwards; }
+.animate-fade-in { animation: fadeIn 0.6s ease-out forwards; }
+.animate-slide-left { animation: slideInLeft 0.7s ease-out forwards; }
+
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.875rem 2rem;
+  background: var(--color-accent); color: white;
+  font-family: var(--font-heading); font-weight: 600; font-size: 0.875rem;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  border: none; cursor: pointer; transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(231,76,60,0.4);
+}
+
+.btn-green {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.875rem 2rem;
+  background: var(--color-green); color: white;
+  font-family: var(--font-heading); font-weight: 600; font-size: 0.875rem;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  border: none; cursor: pointer; transition: all 0.3s ease;
+}
+.btn-green:hover {
+  background: var(--color-green-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(39,174,96,0.4);
+}
+
+.btn-outline {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  background: transparent; color: white;
+  font-family: var(--font-heading); font-weight: 600; font-size: 0.875rem;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  border: 2px solid white; cursor: pointer; transition: all 0.3s ease;
+}
+.btn-outline:hover { background: white; color: var(--color-primary-dark); }
