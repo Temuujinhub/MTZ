@@ -8,67 +8,30 @@
     "language": "Language"
   },
   "hero": {
-    "title": "Mongolian Railway",
-    "subtitle": "The Backbone of Mongolia's Development",
-    "description": "We play a vital role in the economic development of our nation, delivering reliable and safe transportation services.",
-    "cta": "Learn More",
-    "schedule": "Schedule"
-  },
-  "stats": {
-    "title": "Key Figures",
-    "railLength": "Railway Length",
-    "railLengthUnit": "km",
-    "passengers": "Annual Passengers",
-    "passengersUnit": "million",
-    "cargo": "Cargo Transport",
-    "cargoUnit": "million tons",
-    "employees": "Employees",
-    "employeesUnit": "people"
-  },
-  "services": {
-    "title": "Our Services",
-    "subtitle": "Reliable and safe transportation solutions",
-    "passenger": {
-      "title": "Passenger Transport",
-      "description": "Reliable domestic and international passenger transportation services."
-    },
-    "cargo": {
-      "title": "Cargo Transport",
-      "description": "Safe and efficient transport of mining, export, and import cargo."
-    },
-    "infrastructure": {
-      "title": "Infrastructure",
-      "description": "Railway infrastructure maintenance, renovation, and expansion."
-    },
-    "international": {
-      "title": "International Cooperation",
-      "description": "Cross-border transport corridors and international partnerships."
-    }
-  },
-  "news": {
-    "title": "News & Updates",
-    "subtitle": "Latest news and information",
-    "readMore": "Read More",
-    "allNews": "All News",
-    "date": "Date",
-    "category": "Category",
-    "categories": {
-      "general": "General",
-      "project": "Project",
-      "event": "Event",
-      "announcement": "Announcement"
-    }
+    "tag": "Railway Transport",
+    "title": "One stop solution for your transport needs",
+    "description": "Mongolian Railway provides reliable and safe transportation services, playing a vital role in the economic development of Mongolia.",
+    "cta": "Our Services",
+    "learnMore": "Learn More",
+    "statKm": "km of railway",
+    "statPassengers": "passengers/year",
+    "statCargo": "tons cargo/year",
+    "statYears": "years of experience"
   },
   "about": {
     "title": "About Us",
-    "subtitle": "History, mission, and values of Mongolian Railway",
+    "subtitle": "History, mission and values of Mongolian Railway",
+    "sectionTag": "About Us",
+    "introTitle": "Quick & powerful solution for transport services",
+    "introDescription": "Mongolian Railway JSC has been a leading force in Mongolia's transportation sector since 1949. We provide reliable, safe, and efficient passenger and cargo transport services across the nation.",
+    "introButton": "About Transport",
     "history": {
       "title": "Our History",
-      "description": "Mongolian Railway JSC has been a leader in Mongolia's transportation sector since 1949. We have served as the backbone of national development, providing reliable transportation services for decades."
+      "description": "Mongolian Railway JSC has been a leading force in Mongolia's transportation sector since 1949."
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To support Mongolia's economic development by providing safe, reliable, and accessible railway transportation services."
+      "description": "Supporting Mongolia's economic development by providing safe, reliable and accessible railway transportation services."
     },
     "values": {
       "title": "Our Values",
@@ -78,11 +41,92 @@
       "sustainability": "Sustainability"
     }
   },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Reliable and safe transportation solutions",
+    "sectionTag": "Logistic Services",
+    "readMore": "Read More",
+    "passenger": {
+      "title": "Passenger Transport",
+      "description": "Reliable domestic and international passenger transportation services. Online ticketing, comfortable seating, and punctual schedules."
+    },
+    "cargo": {
+      "title": "Cargo Transport",
+      "description": "Reliable and efficient transportation for mining exports and imports. Coal, copper, and container transport services."
+    },
+    "infrastructure": {
+      "title": "Infrastructure",
+      "description": "Railway infrastructure maintenance, renovation, and expansion projects."
+    },
+    "international": {
+      "title": "International Transport",
+      "description": "Cross-border transportation corridors and international partnerships. Transit transport to Russia and China."
+    }
+  },
+  "features": {
+    "sectionTag": "Amazing Features",
+    "title": "Quickest delivery & amazingly affordable",
+    "subtitle": "With decades of experience and a professional team, we leverage modern technology to deliver world-class transportation services.",
+    "fast": {
+      "title": "Quickest Transport",
+      "description": "Fast and efficient transportation to every corner of Mongolia."
+    },
+    "safe": {
+      "title": "Safety First",
+      "description": "Operations meeting international safety standards."
+    },
+    "reliable": {
+      "title": "Timely Delivery",
+      "description": "24/7 continuous operations with reliable schedules."
+    },
+    "growing": {
+      "title": "Sustainable Growth",
+      "description": "New railway construction and technology modernization underway."
+    }
+  },
+  "testimonials": {
+    "sectionTag": "Testimonials",
+    "title": "What people say about transport",
+    "quote": "Mongolian Railway has been an exceptional partner in transporting our cargo reliably and on time. Their professional team and efficient service are their greatest strengths.",
+    "author": "B. Batbold",
+    "authorRole": "Erdenet Mining, Logistics Manager"
+  },
+  "news": {
+    "title": "Latest News",
+    "subtitle": "Latest updates and news",
+    "sectionTag": "From Our Blog",
+    "readMore": "Read More",
+    "allNews": "All News",
+    "items": {
+      "1": {
+        "title": "Tavan Tolgoi - Zuunbayan new railway line",
+        "excerpt": "Construction of the Tavan Tolgoi-Zuunbayan railway is progressing successfully."
+      },
+      "2": {
+        "title": "Participation in International Railway Forum",
+        "excerpt": "MTZ representatives participated in the international railway forum to expand cooperation."
+      },
+      "3": {
+        "title": "New passenger wagons put into service",
+        "excerpt": "Modern passenger wagons equipped with latest technology have been put into service."
+      }
+    },
+    "categories": {
+      "general": "General",
+      "project": "Project",
+      "event": "Event",
+      "announcement": "Announcement"
+    }
+  },
+  "cta": {
+    "title": "Do you still have a question regarding our services?",
+    "button": "Contact Us"
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get in touch with us",
     "address": "Address",
-    "addressValue": "Baga Toiruu 8, Sukhbaatar District, Ulaanbaatar, Mongolia",
+    "addressValue": "Mongolia, Ulaanbaatar, Sukhbaatar District, Baga Toiruu 8",
     "phone": "Phone",
     "email": "Email",
     "workHours": "Working Hours",
@@ -98,8 +142,12 @@
   "footer": {
     "description": "Mongolian Railway JSC is a leading transportation company in Mongolia.",
     "quickLinks": "Quick Links",
-    "contactInfo": "Contact Information",
-    "socialMedia": "Social Media",
-    "copyright": "© 2024 Mongolian Railway JSC. All rights reserved."
+    "contactInfo": "Contact Us",
+    "newsletter": "Newsletter Sign-Up",
+    "newsletterDescription": "Subscribe to receive the latest news and updates from us.",
+    "emailPlaceholder": "Email address",
+    "copyright": "© 2024 Mongolian Railway JSC. All rights reserved.",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
   }
 }

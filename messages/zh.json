@@ -8,63 +8,26 @@
     "language": "语言"
   },
   "hero": {
-    "title": "蒙古铁路",
-    "subtitle": "蒙古国发展的支柱",
-    "description": "我们在国家经济发展中发挥着重要作用，提供可靠、安全的运输服务。",
-    "cta": "了解更多",
-    "schedule": "时刻表"
-  },
-  "stats": {
-    "title": "关键数据",
-    "railLength": "铁路长度",
-    "railLengthUnit": "公里",
-    "passengers": "年度旅客",
-    "passengersUnit": "百万",
-    "cargo": "货物运输",
-    "cargoUnit": "百万吨",
-    "employees": "员工人数",
-    "employeesUnit": "人"
-  },
-  "services": {
-    "title": "我们的服务",
-    "subtitle": "可靠、安全的运输解决方案",
-    "passenger": {
-      "title": "旅客运输",
-      "description": "可靠的国内和国际旅客运输服务。"
-    },
-    "cargo": {
-      "title": "货物运输",
-      "description": "安全高效的矿产、出口和进口货物运输。"
-    },
-    "infrastructure": {
-      "title": "基础设施",
-      "description": "铁路基础设施维护、翻新和扩建。"
-    },
-    "international": {
-      "title": "国际合作",
-      "description": "跨境运输走廊和国际伙伴关系。"
-    }
-  },
-  "news": {
-    "title": "新闻动态",
-    "subtitle": "最新新闻和信息",
-    "readMore": "阅读更多",
-    "allNews": "所有新闻",
-    "date": "日期",
-    "category": "类别",
-    "categories": {
-      "general": "一般",
-      "project": "项目",
-      "event": "活动",
-      "announcement": "公告"
-    }
+    "tag": "铁路运输",
+    "title": "满足您运输需求的一站式解决方案",
+    "description": "蒙古铁路在蒙古国经济发展中发挥着重要作用，提供可靠、安全的运输服务。",
+    "cta": "我们的服务",
+    "learnMore": "了解更多",
+    "statKm": "公里铁路",
+    "statPassengers": "旅客/年",
+    "statCargo": "吨货物/年",
+    "statYears": "年经验"
   },
   "about": {
     "title": "关于我们",
     "subtitle": "蒙古铁路的历史、使命和价值观",
+    "sectionTag": "关于我们",
+    "introTitle": "快速可靠的运输解决方案",
+    "introDescription": "蒙古铁路股份公司自1949年以来一直是蒙古国交通运输领域的领军力量。我们提供可靠、安全、高效的客运和货运服务。",
+    "introButton": "关于运输",
     "history": {
       "title": "我们的历史",
-      "description": "蒙古铁路股份公司自1949年以来一直是蒙古国运输行业的领导者。我们作为国家发展的支柱，几十年来提供可靠的运输服务。"
+      "description": "蒙古铁路股份公司自1949年以来一直是蒙古国交通运输领域的领军力量。"
     },
     "mission": {
       "title": "我们的使命",
@@ -73,20 +36,101 @@
     "values": {
       "title": "我们的价值观",
       "safety": "安全",
-      "reliability": "可靠性",
+      "reliability": "可靠",
       "innovation": "创新",
       "sustainability": "可持续发展"
     }
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "可靠安全的运输解决方案",
+    "sectionTag": "物流服务",
+    "readMore": "阅读更多",
+    "passenger": {
+      "title": "客运服务",
+      "description": "可靠的国内和国际客运服务。在线购票、舒适座位、准时发车。"
+    },
+    "cargo": {
+      "title": "货运服务",
+      "description": "为矿业出口和进口提供可靠高效的运输服务。煤炭、铜矿和集装箱运输。"
+    },
+    "infrastructure": {
+      "title": "基础设施",
+      "description": "铁路基础设施维护、改造和扩建项目。"
+    },
+    "international": {
+      "title": "国际运输",
+      "description": "跨境运输走廊和国际合作伙伴关系。通往俄罗斯和中国的过境运输。"
+    }
+  },
+  "features": {
+    "sectionTag": "卓越特点",
+    "title": "最快的配送，超实惠的价格",
+    "subtitle": "凭借数十年的经验和专业团队，我们利用现代技术提供世界一流的运输服务。",
+    "fast": {
+      "title": "快速运输",
+      "description": "快速高效地运输到蒙古各地。"
+    },
+    "safe": {
+      "title": "安全第一",
+      "description": "符合国际安全标准的运营。"
+    },
+    "reliable": {
+      "title": "准时交付",
+      "description": "24/7全天候运营，时刻表可靠。"
+    },
+    "growing": {
+      "title": "可持续增长",
+      "description": "正在进行新铁路建设和技术现代化。"
+    }
+  },
+  "testimonials": {
+    "sectionTag": "客户评价",
+    "title": "客户对我们的评价",
+    "quote": "蒙古铁路一直是我们可靠的合作伙伴，准时运输我们的货物。他们专业的团队和高效的服务是他们最大的优势。",
+    "author": "B. 巴特博尔德",
+    "authorRole": "额尔登特矿业，物流经理"
+  },
+  "news": {
+    "title": "最新新闻",
+    "subtitle": "最新动态和新闻",
+    "sectionTag": "新闻博客",
+    "readMore": "阅读更多",
+    "allNews": "全部新闻",
+    "items": {
+      "1": {
+        "title": "塔温陶勒盖-宗巴彦新铁路线",
+        "excerpt": "塔温陶勒盖-宗巴彦铁路建设正在顺利推进。"
+      },
+      "2": {
+        "title": "参加国际铁路论坛",
+        "excerpt": "蒙古铁路代表参加国际铁路论坛，扩大合作。"
+      },
+      "3": {
+        "title": "新客车投入运营",
+        "excerpt": "配备最新技术的现代化客车已投入运营。"
+      }
+    },
+    "categories": {
+      "general": "综合",
+      "project": "项目",
+      "event": "活动",
+      "announcement": "公告"
+    }
+  },
+  "cta": {
+    "title": "您对我们的服务还有疑问吗？",
+    "button": "联系我们"
   },
   "contact": {
     "title": "联系我们",
     "subtitle": "与我们取得联系",
     "address": "地址",
-    "addressValue": "蒙古国乌兰巴托市苏赫巴托区小环路8号",
+    "addressValue": "蒙古国乌兰巴托市苏赫巴托尔区小环路8号",
     "phone": "电话",
     "email": "邮箱",
     "workHours": "工作时间",
-    "workHoursValue": "周一至周五: 09:00 - 18:00",
+    "workHoursValue": "周一至周五：09:00 - 18:00",
     "form": {
       "name": "姓名",
       "email": "邮箱",
@@ -98,8 +142,12 @@
   "footer": {
     "description": "蒙古铁路股份公司是蒙古国领先的运输公司。",
     "quickLinks": "快速链接",
-    "contactInfo": "联系信息",
-    "socialMedia": "社交媒体",
-    "copyright": "© 2024 蒙古铁路股份公司。保留所有权利。"
+    "contactInfo": "联系我们",
+    "newsletter": "订阅新闻",
+    "newsletterDescription": "订阅以接收我们的最新新闻和动态。",
+    "emailPlaceholder": "邮箱地址",
+    "copyright": "© 2024 蒙古铁路股份公司。版权所有。",
+    "terms": "使用条款",
+    "privacy": "隐私政策"
   }
 }
